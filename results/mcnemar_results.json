@@ -1,0 +1,85 @@
+{
+  "n_cases": 100,
+  "accuracy_per_system": {
+    "stock": 0.6,
+    "structured": 0.73,
+    "logreg": 0.72,
+    "rf": 0.73,
+    "xgboost": 0.75
+  },
+  "primary_comparisons": [
+    {
+      "n01_A_wrong_B_right": 14,
+      "n10_A_right_B_wrong": 27,
+      "n_discordant": 41,
+      "test_type": "chi2_continuity_corrected",
+      "statistic": 3.5121951219512195,
+      "p_value": 0.06091869077971672,
+      "comparison": "structured vs stock",
+      "p_value_holm_corrected": 0.24367476311886688,
+      "significant_at_0.05_corrected": false
+    },
+    {
+      "n01_A_wrong_B_right": 7,
+      "n10_A_right_B_wrong": 8,
+      "n_discordant": 15,
+      "test_type": "exact_binomial",
+      "statistic": 7.0,
+      "p_value": 1.0,
+      "comparison": "structured vs logreg",
+      "p_value_holm_corrected": 1.0,
+      "significant_at_0.05_corrected": false
+    },
+    {
+      "n01_A_wrong_B_right": 7,
+      "n10_A_right_B_wrong": 7,
+      "n_discordant": 14,
+      "test_type": "exact_binomial",
+      "statistic": 7.0,
+      "p_value": 1.0,
+      "comparison": "structured vs rf",
+      "p_value_holm_corrected": 1.0,
+      "significant_at_0.05_corrected": false
+    },
+    {
+      "n01_A_wrong_B_right": 13,
+      "n10_A_right_B_wrong": 11,
+      "n_discordant": 24,
+      "test_type": "exact_binomial",
+      "statistic": 11.0,
+      "p_value": 0.8388197422027588,
+      "comparison": "structured vs xgboost",
+      "p_value_holm_corrected": 1.0,
+      "significant_at_0.05_corrected": false
+    }
+  ],
+  "secondary_comparisons": [
+    {
+      "n01_A_wrong_B_right": 28,
+      "n10_A_right_B_wrong": 16,
+      "n_discordant": 44,
+      "test_type": "chi2_continuity_corrected",
+      "statistic": 2.75,
+      "p_value": 0.09725442843900337,
+      "comparison": "stock vs logreg"
+    },
+    {
+      "n01_A_wrong_B_right": 30,
+      "n10_A_right_B_wrong": 17,
+      "n_discordant": 47,
+      "test_type": "chi2_continuity_corrected",
+      "statistic": 3.0638297872340425,
+      "p_value": 0.08005278235757977,
+      "comparison": "stock vs rf"
+    },
+    {
+      "n01_A_wrong_B_right": 28,
+      "n10_A_right_B_wrong": 13,
+      "n_discordant": 41,
+      "test_type": "chi2_continuity_corrected",
+      "statistic": 4.780487804878049,
+      "p_value": 0.028783965875738372,
+      "comparison": "stock vs xgboost"
+    }
+  ]
+}

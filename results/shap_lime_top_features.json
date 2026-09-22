@@ -1,0 +1,4223 @@
+{
+  "shap_top": {
+    "xgboost": {
+      "case_0000": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0001": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0002": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0003": [
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0005": [
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0007": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0008": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumInqLast6M",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0009": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0010": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0011": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0012": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumTotalTrades"
+      ],
+      "case_0013": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades"
+      ],
+      "case_0014": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0015": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0016": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0017": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0018": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0019": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0020": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NumInqLast6M",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0021": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0022": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0023": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0025": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0026": [
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0027": [
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0028": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0029": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0030": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0031": [
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades",
+        "NumInqLast6M",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0032": [
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades",
+        "PercentTradesWBalance",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0033": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0034": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate"
+      ],
+      "case_0035": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0037": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0038": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0039": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "PercentInstallTrades"
+      ],
+      "case_0040": [
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0041": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0042": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0043": [
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0044": [
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0045": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0046": [
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq",
+        "PercentInstallTrades"
+      ],
+      "case_0047": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumTotalTrades"
+      ],
+      "case_0048": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumInqLast6M",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0049": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0050": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0051": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0052": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0053": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0054": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0055": [
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "AverageMInFile"
+      ],
+      "case_0056": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumInqLast6M",
+        "PercentInstallTrades",
+        "AverageMInFile"
+      ],
+      "case_0058": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades"
+      ],
+      "case_0059": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NumInqLast6M"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile"
+      ],
+      "case_0061": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0062": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumInqLast6M",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0063": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0064": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0066": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0067": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0068": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0069": [
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq",
+        "AverageMInFile"
+      ],
+      "case_0070": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0071": [
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0072": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0073": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0074": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "NumTotalTrades",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0075": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0076": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0078": [
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0079": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0080": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "PercentInstallTrades"
+      ],
+      "case_0081": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NetFractionInstallBurden"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades",
+        "AverageMInFile"
+      ],
+      "case_0083": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "PercentInstallTrades"
+      ],
+      "case_0084": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumInqLast6M",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0086": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0087": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0088": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0089": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0090": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0091": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0092": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0093": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0094": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0095": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0096": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades"
+      ],
+      "case_0097": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0098": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0099": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ]
+    },
+    "random_forest": {
+      "case_0000": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0001": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesWBalance",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0002": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades",
+        "PercentTradesWBalance"
+      ],
+      "case_0003": [
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0005": [
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0007": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesWBalance",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0008": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0009": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0010": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0011": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0012": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0013": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades",
+        "PercentTradesWBalance"
+      ],
+      "case_0014": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0015": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0016": [
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0017": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentTradesWBalance"
+      ],
+      "case_0018": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0019": [
+        "PercentTradesWBalance",
+        "NumBank2NatlTradesWHighUtilization",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0020": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0021": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0022": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "PercentTradesWBalance",
+        "NetFractionInstallBurden",
+        "AverageMInFile"
+      ],
+      "case_0023": [
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0025": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0026": [
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M",
+        "NetFractionRevolvingBurden",
+        "PercentTradesWBalance"
+      ],
+      "case_0027": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0028": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0029": [
+        "MSinceOldestTradeOpen",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "PercentTradesWBalance"
+      ],
+      "case_0030": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0031": [
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentDelq",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0032": [
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "PercentTradesWBalance",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0033": [
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0034": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate"
+      ],
+      "case_0035": [
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0037": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentTradesWBalance"
+      ],
+      "case_0038": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen",
+        "NetFractionRevolvingBurden",
+        "PercentTradesWBalance"
+      ],
+      "case_0039": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesWBalance",
+        "AverageMInFile"
+      ],
+      "case_0040": [
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0041": [
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0042": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0043": [
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq",
+        "PercentTradesNeverDelq",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0044": [
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumTotalTrades"
+      ],
+      "case_0045": [
+        "ExternalRiskEstimate",
+        "PercentTradesWBalance",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0046": [
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades",
+        "MSinceMostRecentDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0047": [
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumTotalTrades"
+      ],
+      "case_0048": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "PercentTradesWBalance"
+      ],
+      "case_0049": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0050": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0051": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0052": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades",
+        "PercentInstallTrades"
+      ],
+      "case_0053": [
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0054": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0055": [
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0056": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0058": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0059": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0061": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "MaxDelq2PublicRecLast12M",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0062": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0063": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceOldestTradeOpen",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0064": [
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen",
+        "PercentTradesWBalance"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "NumInqLast6M",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0066": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "MSinceMostRecentDelq",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0067": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "PercentTradesWBalance"
+      ],
+      "case_0068": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0069": [
+        "PercentTradesNeverDelq",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0070": [
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0071": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0072": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0073": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0074": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NumTotalTrades",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0075": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades"
+      ],
+      "case_0076": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq",
+        "PercentTradesNeverDelq",
+        "PercentTradesWBalance"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "PercentTradesWBalance",
+        "PercentInstallTrades",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0078": [
+        "PercentTradesNeverDelq",
+        "MSinceOldestTradeOpen",
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met"
+      ],
+      "case_0079": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "PercentTradesWBalance"
+      ],
+      "case_0080": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0081": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentTradesWBalance",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0083": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades",
+        "PercentInstallTrades"
+      ],
+      "case_0084": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceOldestTradeOpen",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0086": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0087": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0088": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0089": [
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "MSinceOldestTradeOpen",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0090": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0091": [
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0092": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0093": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MaxDelq2PublicRecLast12M",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0094": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0095": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0096": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0097": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0098": [
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "ExternalRiskEstimate"
+      ],
+      "case_0099": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "MSinceOldestTradeOpen",
+        "NumSatisfactoryTrades"
+      ]
+    },
+    "logistic_regression": {
+      "case_0000": [
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "ExternalRiskEstimate"
+      ],
+      "case_0001": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0002": [
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate"
+      ],
+      "case_0003": [
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq",
+        "NumInqLast6M",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0005": [
+        "MSinceMostRecentInqexcl7days",
+        "NumRevolvingTradesWBalance",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentInstallTrades"
+      ],
+      "case_0007": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0008": [
+        "NumInqLast6M",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M",
+        "AverageMInFile"
+      ],
+      "case_0009": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0010": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0011": [
+        "NumBank2NatlTradesWHighUtilization",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0012": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0013": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0014": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumRevolvingTradesWBalance",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate"
+      ],
+      "case_0015": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0016": [
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "AverageMInFile"
+      ],
+      "case_0017": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0018": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumTotalTrades"
+      ],
+      "case_0019": [
+        "NumSatisfactoryTrades",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentInstallTrades",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0020": [
+        "NumInqLast6M",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0021": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0022": [
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NetFractionInstallBurden",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0023": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0025": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentTradeOpen"
+      ],
+      "case_0026": [
+        "PercentInstallTrades",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0027": [
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumInqLast6M"
+      ],
+      "case_0028": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades"
+      ],
+      "case_0029": [
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "PercentInstallTrades",
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate"
+      ],
+      "case_0030": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0031": [
+        "NumSatisfactoryTrades",
+        "NumInqLast6M",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0032": [
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "NumRevolvingTradesWBalance",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0033": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0034": [
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0035": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "AverageMInFile",
+        "PercentInstallTrades"
+      ],
+      "case_0037": [
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumSatisfactoryTrades",
+        "AverageMInFile",
+        "ExternalRiskEstimate"
+      ],
+      "case_0038": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "PercentInstallTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0039": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "NumSatisfactoryTrades",
+        "AverageMInFile"
+      ],
+      "case_0040": [
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentTradeOpen",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0041": [
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "MSinceMostRecentDelq",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NetFractionInstallBurden"
+      ],
+      "case_0042": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0043": [
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentInstallTrades",
+        "NumRevolvingTradesWBalance",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0044": [
+        "NumSatisfactoryTrades",
+        "NumInqLast6M",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0045": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0046": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0047": [
+        "MSinceMostRecentInqexcl7days",
+        "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0048": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0049": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0050": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0051": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0052": [
+        "PercentTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "AverageMInFile"
+      ],
+      "case_0053": [
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0054": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades"
+      ],
+      "case_0055": [
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumInqLast6M",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0056": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "PercentTradesNeverDelq",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0058": [
+        "AverageMInFile",
+        "PercentInstallTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "ExternalRiskEstimate",
+        "NumRevolvingTradesWBalance"
+      ],
+      "case_0059": [
+        "NumSatisfactoryTrades",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumRevolvingTradesWBalance",
+        "AverageMInFile",
+        "NumInqLast6M"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumSatisfactoryTrades",
+        "PercentTradesNeverDelq"
+      ],
+      "case_0061": [
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumRevolvingTradesWBalance",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0062": [
+        "NumInqLast6M",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0063": [
+        "MSinceMostRecentDelq",
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumInqLast6M"
+      ],
+      "case_0064": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden",
+        "PercentInstallTrades",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "NumInqLast6M",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0066": [
+        "MaxDelq2PublicRecLast12M",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0067": [
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "PercentInstallTrades"
+      ],
+      "case_0068": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades",
+        "AverageMInFile"
+      ],
+      "case_0069": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades"
+      ],
+      "case_0070": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization",
+        "PercentInstallTrades"
+      ],
+      "case_0071": [
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0072": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "PercentTradesNeverDelq",
+        "AverageMInFile"
+      ],
+      "case_0073": [
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met"
+      ],
+      "case_0074": [
+        "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumTotalTrades",
+        "ExternalRiskEstimate",
+        "MaxDelq2PublicRecLast12M"
+      ],
+      "case_0075": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0076": [
+        "AverageMInFile",
+        "MSinceMostRecentDelq",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0078": [
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades",
+        "MaxDelq2PublicRecLast12M",
+        "AverageMInFile"
+      ],
+      "case_0079": [
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "MaxDelq2PublicRecLast12M",
+        "AverageMInFile"
+      ],
+      "case_0080": [
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "AverageMInFile"
+      ],
+      "case_0081": [
+        "NetFractionInstallBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "AverageMInFile",
+        "MSinceMostRecentTradeOpen",
+        "PercentInstallTrades"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "PercentInstallTrades",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0083": [
+        "AverageMInFile",
+        "NumSatisfactoryTrades",
+        "PercentInstallTrades",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0084": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "NumBank2NatlTradesWHighUtilization",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumInqLast6M"
+      ],
+      "case_0086": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NetFractionRevolvingBurden",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0087": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0088": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0089": [
+        "MaxDelq2PublicRecLast12M",
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumInqLast6M"
+      ],
+      "case_0090": [
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization",
+        "NumInqLast6M"
+      ],
+      "case_0091": [
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "MaxDelq2PublicRecLast12M",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0092": [
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "MSinceMostRecentDelq",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumInqLast6M"
+      ],
+      "case_0093": [
+        "MaxDelq2PublicRecLast12M",
+        "NumSatisfactoryTrades",
+        "AverageMInFile",
+        "MSinceMostRecentDelq_missing_condition_not_met",
+        "NumBank2NatlTradesWHighUtilization"
+      ],
+      "case_0094": [
+        "MSinceMostRecentInqexcl7days",
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0095": [
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentDelq"
+      ],
+      "case_0096": [
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "ExternalRiskEstimate",
+        "PercentInstallTrades",
+        "PercentTradesNeverDelq",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0097": [
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "ExternalRiskEstimate",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0098": [
+        "NetFractionRevolvingBurden",
+        "AverageMInFile",
+        "NumTotalTrades",
+        "ExternalRiskEstimate",
+        "MSinceMostRecentDelq_missing_condition_not_met"
+      ],
+      "case_0099": [
+        "AverageMInFile",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "MaxDelq2PublicRecLast12M",
+        "NumSatisfactoryTrades",
+        "ExternalRiskEstimate"
+      ]
+    }
+  },
+  "lime_top": {
+    "xgboost": {
+      "case_0000": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0001": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0002": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0003": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0005": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0007": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0008": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0009": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0010": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0011": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0012": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0013": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0014": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0015": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0016": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0017": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0018": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0019": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0020": [
+        "NumInqLast6Mexcl7days",
+        "NumInqLast6M",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0021": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0022": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0023": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0025": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0026": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0027": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0028": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0029": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0030": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0031": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0032": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0033": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0034": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0035": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0037": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0038": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0039": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0040": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0041": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0042": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0043": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0044": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0045": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0046": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0047": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0048": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0049": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0050": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0051": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0052": [
+        "PercentTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NumRevolvingTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0053": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0054": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0055": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0056": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0058": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0059": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0061": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0062": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0063": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0064": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0066": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0067": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0068": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0069": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0070": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0071": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0072": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0073": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0074": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0075": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0076": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "NetFractionRevolvingBurden",
+        "AverageMInFile"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0078": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0079": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0080": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0081": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0083": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0084": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0086": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0087": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0088": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0089": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0090": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0091": [
+        "ExternalRiskEstimate",
+        "MSinceMostRecentInqexcl7days",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0092": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0093": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0094": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0095": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0096": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0097": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0098": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ],
+      "case_0099": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden"
+      ]
+    },
+    "random_forest": {
+      "case_0000": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0001": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0002": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0003": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0005": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0007": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0008": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0009": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0010": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0011": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "PercentTradesNeverDelq",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0012": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0013": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0014": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0015": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0016": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0017": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0018": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0019": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0020": [
+        "NumInqLast6Mexcl7days",
+        "NumInqLast6M",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "MSinceOldestTradeOpen"
+      ],
+      "case_0021": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0022": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0023": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0025": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0026": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0027": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0028": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0029": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0030": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0031": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0032": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0033": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0034": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0035": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0037": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0038": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0039": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0040": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0041": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0042": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0043": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0044": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0045": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0046": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0047": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0048": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0049": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0050": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0051": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0052": [
+        "PercentTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NumRevolvingTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0053": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0054": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0055": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0056": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0058": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0059": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0061": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0062": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0063": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0064": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0066": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0067": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0068": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0069": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0070": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0071": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0072": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0073": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0074": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0075": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0076": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0078": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0079": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0080": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0081": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0083": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0084": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0086": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0087": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0088": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0089": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0090": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0091": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0092": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0093": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0094": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0095": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0096": [
+        "ExternalRiskEstimate",
+        "PercentTradesNeverDelq",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0097": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0098": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ],
+      "case_0099": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "PercentTradesNeverDelq",
+        "NetFractionRevolvingBurden",
+        "MSinceMostRecentInqexcl7days"
+      ]
+    },
+    "logistic_regression": {
+      "case_0000": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0001": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0002": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0003": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0004": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0005": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0006": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0007": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0008": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0009": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0010": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0011": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0012": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0013": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0014": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0015": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0016": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0017": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0018": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0019": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0020": [
+        "NumInqLast6Mexcl7days",
+        "NumInqLast6M",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "AverageMInFile",
+        "NumSatisfactoryTrades"
+      ],
+      "case_0021": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0022": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0023": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0024": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0025": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0026": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0027": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0028": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0029": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0030": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0031": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0032": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0033": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0034": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0035": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0036": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0037": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0038": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0039": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0040": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0041": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0042": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0043": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0044": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0045": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0046": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0047": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0048": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0049": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0050": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0051": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0052": [
+        "PercentTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NumRevolvingTradesWBalance_missing_no_usable_trades_or_inquiries",
+        "NetFractionRevolvingBurden_missing_no_usable_trades_or_inquiries",
+        "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+        "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0053": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0054": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0055": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0056": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0057": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0058": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0059": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0060": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0061": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0062": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0063": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0064": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0065": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0066": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0067": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0068": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0069": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0070": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0071": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0072": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0073": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0074": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0075": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0076": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0077": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0078": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0079": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0080": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0081": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0082": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0083": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0084": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0085": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0086": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0087": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0088": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0089": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0090": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0091": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0092": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0093": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0094": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0095": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0096": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0097": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0098": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ],
+      "case_0099": [
+        "ExternalRiskEstimate",
+        "AverageMInFile",
+        "NetFractionRevolvingBurden",
+        "NumSatisfactoryTrades",
+        "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries"
+      ]
+    }
+  },
+  "shap_lime_overlap_by_model": {
+    "xgboost": 0.7499999999999997,
+    "random_forest": 0.6659999999999998,
+    "logistic_regression": 0.556
+  }
+}

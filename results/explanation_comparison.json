@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "precision_shap_xgboost": 0.3235,
+    "precision_lime_xgboost": 0.3835,
+    "precision_shap_random_forest": 0.346,
+    "precision_lime_random_forest": 0.3835,
+    "precision_shap_logistic_regression": 0.225,
+    "precision_lime_logistic_regression": 0.226
+  },
+  "correctness_breakdown": {
+    "precision_shap_xgboost": {
+      "false": 0.26286764705882354,
+      "true": 0.34615384615384615
+    },
+    "precision_lime_xgboost": {
+      "false": 0.3786764705882353,
+      "true": 0.3853021978021978
+    },
+    "precision_shap_random_forest": {
+      "false": 0.33455882352941174,
+      "true": 0.35027472527472525
+    },
+    "precision_lime_random_forest": {
+      "false": 0.3786764705882353,
+      "true": 0.3853021978021978
+    },
+    "precision_shap_logistic_regression": {
+      "false": 0.19301470588235295,
+      "true": 0.23695054945054944
+    },
+    "precision_lime_logistic_regression": {
+      "false": 0.22426470588235295,
+      "true": 0.22664835164835165
+    }
+  },
+  "unmapped_rate": 0.0
+}
