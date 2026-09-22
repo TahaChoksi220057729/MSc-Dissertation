@@ -1,0 +1,68 @@
+{
+  "target_col": "RiskPerformance",
+  "positive_label": "Bad",
+  "feature_cols": [
+    "ExternalRiskEstimate",
+    "MSinceOldestTradeOpen",
+    "MSinceMostRecentTradeOpen",
+    "AverageMInFile",
+    "NumSatisfactoryTrades",
+    "NumTrades60Ever2DerogPubRec",
+    "NumTrades90Ever2DerogPubRec",
+    "PercentTradesNeverDelq",
+    "MSinceMostRecentDelq",
+    "MaxDelq2PublicRecLast12M",
+    "MaxDelqEver",
+    "NumTotalTrades",
+    "NumTradesOpeninLast12M",
+    "PercentInstallTrades",
+    "MSinceMostRecentInqexcl7days",
+    "NumInqLast6M",
+    "NumInqLast6Mexcl7days",
+    "NetFractionRevolvingBurden",
+    "NetFractionInstallBurden",
+    "NumRevolvingTradesWBalance",
+    "NumInstallTradesWBalance",
+    "NumBank2NatlTradesWHighUtilization",
+    "PercentTradesWBalance"
+  ],
+  "indicator_cols": [
+    "ExternalRiskEstimate_missing_no_bureau_record",
+    "MSinceOldestTradeOpen_missing_no_usable_trades_or_inquiries",
+    "MSinceMostRecentDelq_missing_no_usable_trades_or_inquiries",
+    "MSinceMostRecentDelq_missing_condition_not_met",
+    "MSinceMostRecentInqexcl7days_missing_no_usable_trades_or_inquiries",
+    "MSinceMostRecentInqexcl7days_missing_condition_not_met",
+    "NetFractionRevolvingBurden_missing_no_usable_trades_or_inquiries",
+    "NetFractionInstallBurden_missing_no_usable_trades_or_inquiries",
+    "NumRevolvingTradesWBalance_missing_no_usable_trades_or_inquiries",
+    "NumInstallTradesWBalance_missing_no_usable_trades_or_inquiries",
+    "NumBank2NatlTradesWHighUtilization_missing_no_usable_trades_or_inquiries",
+    "PercentTradesWBalance_missing_no_usable_trades_or_inquiries"
+  ],
+  "special_codes": {
+    "-9": "no_bureau_record",
+    "-8": "no_usable_trades_or_inquiries",
+    "-7": "condition_not_met"
+  },
+  "seed": 42,
+  "split_sizes": {
+    "train": 6909,
+    "val": 1481,
+    "test": 1481
+  },
+  "class_balance": {
+    "train": {
+      "1": 0.5201910551454625,
+      "0": 0.47980894485453757
+    },
+    "val": {
+      "1": 0.5205941931127617,
+      "0": 0.47940580688723833
+    },
+    "test": {
+      "1": 0.5205941931127617,
+      "0": 0.47940580688723833
+    }
+  }
+}
