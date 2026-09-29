@@ -1,9 +1,7 @@
 """
 revalidate_results.py
 
-Re-runs parse_structured_response against ALREADY-GENERATED raw_response
-text, without any new GPU generation or Colab session. Use this whenever
-structured_pipeline.py's validation logic changes
+Re-runs parse_structured_response against ALREADY-GENERATED raw_response text
 
 Usage:
     python revalidate_results.py --results-path results/structured_results.jsonl --subset-path data/processed/llm_eval_subset.csv --metadata-path data/processed/metadata.json --output-path results/structured_results_revalidated.jsonl

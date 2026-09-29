@@ -1,10 +1,7 @@
 """
 select_stratified_subset.py
 
-Selects the stratified LLM-evaluation subset, used identically by both the
-stock and structured pipelines (same cases for both -- this is what makes
-the pipeline-vs-pipeline comparison fair; if they saw different cases, any
-difference in results could just be case difficulty, not pipeline design).
+Selects the stratified LLM-evaluation subset
 """
 
 import argparse

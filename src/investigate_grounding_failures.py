@@ -1,14 +1,6 @@
 """
 investigate_grounding_failures.py
 
-Looks for what distinguishes cases where the structured pipeline NEVER
-produces a grounded explanation (fails on all 5 runs) from cases where it
-succeeds at least once. Grounding failures were found to be heavily
-concentrated -- 16 cases account for ~95% of all failures -- which
-suggests something specific about those applicant profiles, not random
-noise scattered evenly across all 100 cases.
-
-
 Usage:
     python investigate_grounding_failures.py --results-path results/structured_results.jsonl --subset-path data/processed/llm_eval_subset.csv --processed-dir data/processed [--baseline-predictions-path results/baseline_per_case_predictions.csv]
 """
@@ -98,9 +90,7 @@ def main():
             "\nSmall distances (say, within a few units) suggest misremembering "
             "or paraphrasing a real value with reduced precision. Large "
             "distances suggest the model is stating numbers with no clear "
-            "basis in this applicant's actual data -- a more serious form of "
-            "fabrication, worth distinguishing in your explanation-quality "
-            "analysis."
+            "basis in this applicant's actual data."
         )
     else:
         print("No ungrounded numbers found to analyze.")

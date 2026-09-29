@@ -1,10 +1,6 @@
 """
 applicant_profile_reworded.py
 
-Alternate profile-text generator producing genuinely different surface
-wording for the SAME underlying facts as applicant_profile.py, for
-robustness testing.
-
 """
 import hashlib
 import random

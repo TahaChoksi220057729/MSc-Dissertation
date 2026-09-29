@@ -1,50 +1,12 @@
 """
 structured_pipeline.py
 
-The "structured" Qwen3 pipeline: adds a feature glossary, a fixed decision
-rubric, fixed few-shot examples, a JSON output schema, and validation --
-in contrast to stock_pipeline.py's deliberately minimal design. Per your
-proposal, validation checks: (1) valid JSON, (2) permitted label,
-(3) numeric confidence in range, (4) explanation grounded in real input
-features, (5) explanation doesn't contradict the predicted label.
-
-Design decisions (document these in your Method chapter, in your own
-words):
-
-1. The rubric explicitly instructs checking BOTH positive and negative
-   indicators before concluding, rather than just listing what "Good"
-   and "Bad" mean. This is directly motivated by an observed finding from
-   the stock pipeline pilot run: it showed a systematic leniency bias,
-   citing genuine positive indicators while apparently not weighing
-   negative ones, producing a 76% false-negative rate on true-Bad cases
-   despite input-grounded (not generic) explanations. Documenting this as
-   the motivation for the rubric's design is a legitimate, evidence-based
-   methodological decision, not an arbitrary prompt-engineering choice.
-
-2. Check 4 ("explanation refers only to real input features") is
-   implemented as NUMERIC grounding, not keyword/topic matching: every
-   standalone number mentioned in key_factors/explanation is cross-checked
-   against the applicant's actual feature values (within a small
-   tolerance). This is narrower than the proposal's literal wording but
-   far more reliable -- generic keyword matching against paraphrased
-   natural language produces too many false positives to be useful, while
-   a fabricated or misremembered number is a precise, checkable signal
-   (this is exactly the kind of error the stock-pipeline pilot's case_0014
-   showed by hand -- a specific, wrong number-to-meaning claim).
-
-3. Check 5 (label contradiction) is a keyword-based heuristic, not a
-   semantic check -- it flags strong opposite-valence language relative to
-   the stated label. This is a real limitation: it will miss subtler
-   contradictions and could false-positive on legitimate hedged language.
-   Worth spot-checking flagged AND unflagged cases by hand periodically,
-   the same way case_0014 was found -- automated checks here are a
-   screening aid, not a substitute for reading actual output.
-
-4. The output field is named "key_factors", not "main_risk_factors" as in
-   the proposal's prose -- "risk factors" reads oddly for a Good-labeled
-   case's supporting evidence. This is a naming clarification only; it
-   still corresponds to the same proposal requirement (the factors driving
-   the classification).
+The "structured" Qwen3 pipeline: 
+1. adds a feature glossary, 
+2. a fixed decision rubric, 
+3. fixed few-shot examples, 
+4. a JSON output schema, 
+5. validation.
 """
 
 import json

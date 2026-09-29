@@ -2,7 +2,6 @@
 qwen3_inference.py
 
 Loads Qwen3-8B in 4-bit quantization and provides a generation wrapper.
-Designed for Colab.
 """
 
 import torch
@@ -22,8 +21,8 @@ def load_model_and_tokenizer(
     compute_dtype: torch.dtype = torch.float16,
 ):
     """
-    Loads Qwen3-8B. Requires transformers>=4.51.0 (older versions error on
-    Qwen3's architecture). Requires bitsandbytes if quantize_4bit=True.
+    Loads Qwen3-8B. Requires transformers>=4.51.0 
+    Requires bitsandbytes if quantize_4bit=True.
     """
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -58,8 +57,7 @@ def generate(
     enable_thinking: bool = False,
 ) -> str:
     """
-    Generates a single response. `seed` is required -- see design decision
-    3 above. Returns the decoded response text only (prompt not included).
+    Generates a single response. `seed` is required.
     """
     messages = []
     if system_prompt:

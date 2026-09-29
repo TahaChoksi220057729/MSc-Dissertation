@@ -2,13 +2,7 @@
 mcnemar_tests.py
 
 Pairwise McNemar's tests comparing all five systems (stock, structured,
-LogReg, RF, XGBoost) on the same eval subset, per your proposal's Method
-section. Uses statsmodels' implementation (handles the exact-binomial vs
-chi-square-approximation switch automatically for small discordant-pair
-counts) rather than a hand-rolled formula, since getting this subtly
-wrong would undermine the one part of the analysis meant to be
-statistically rigorous.
-
+LogReg, RF, XGBoost) on the same eval subset.
 
 Usage:
     python mcnemar_tests.py --stock-results results/stock_results.jsonl --structured-results results/structured_results_revalidated.jsonl --baseline-predictions results/baseline_per_case_predictions.csv --metadata-path data/processed/metadata.json --output-path results/mcnemar_results.json
@@ -117,21 +111,6 @@ def main():
         res["comparison"] = f"{a} vs {b}"
         secondary_results.append(res)
         print(f"{res['comparison']:20s} discordant={res['n_discordant']:3d} ({res['test_type']})  raw p={res['p_value']:.4f}")
-
-    print(
-        "\nInterpretation notes:\n"
-        "- McNemar's test only uses cases where the two systems DISAGREE -- "
-        "cases where both are right or both are wrong contribute nothing to "
-        "the test, regardless of how many there are.\n"
-        "- 'Significant' here means the disagreement pattern is unlikely to be "
-        "symmetric by chance -- it is not the same claim as 'the accuracy gap "
-        "is large'. Report both the p-value and the actual accuracy numbers, "
-        "not the p-value alone.\n"
-        "- This is a single run of each pipeline. A significant result here "
-        "supports the observed gap being real rather than sampling noise on "
-        "THIS subset -- it does not by itself rule out that the model would "
-        "behave differently on a different stratified sample."
-    )
 
     args.output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(args.output_path, "w") as f:

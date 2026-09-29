@@ -4,7 +4,6 @@ score_baselines_on_eval_subset.py
 Re-scores the three classical baselines on the SAME stratified evaluation
 subset used for both LLM pipelines (llm_eval_subset.csv)
 
-
 Usage:
     python score_baselines_on_eval_subset.py --processed-dir data/processed --models-dir results/models --output-dir results
 """
@@ -66,15 +65,6 @@ def main():
             print("WARNING: package versions differ from when these models were trained:")
             for pkg, (old, new) in mismatches.items():
                 print(f"  {pkg}: trained with {old}, currently running {new}")
-            print(
-                "This CAN cause loading to fail with a confusing internal "
-                "error (this happened for real during this project: an "
-                "sklearn internal attribute was renamed between versions). "
-                "If loading fails below, retrain fresh instead of debugging "
-                "the pickle: python baselines.py --processed-dir ... "
-                "--output-dir ... (fast -- well under a minute on this "
-                "dataset size), then re-run this script.\n"
-            )
 
     target_col = metadata["target_col"]
     feature_cols = metadata["feature_cols"] + metadata["indicator_cols"]
@@ -126,11 +116,6 @@ def main():
     print("  baseline_results_on_eval_subset.json  (full metrics incl. confusion matrix)")
     print("  baseline_summary_on_eval_subset.csv    (headline metrics table)")
     print("  baseline_per_case_predictions.csv      (for McNemar's test / joining against LLM results)")
-    print(
-        "\nNOTE: not comparable to baseline_summary_test.csv from baselines.py -- "
-        "that was scored on the full, easier test set. Use THIS file's numbers "
-        "when comparing against the LLM pipelines."
-    )
 
 
 if __name__ == "__main__":

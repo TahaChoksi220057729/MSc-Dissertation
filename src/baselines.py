@@ -4,36 +4,6 @@ baselines.py
 Trains and tunes the three classical ML baselines (Logistic Regression,
 Random Forest, XGBoost) on the output of data_pipeline.py.
 
-Design decisions (document these in your Method chapter, in your own words):
-
-1. Preprocessing differs by model, not globally:
-   - Logistic Regression: median imputation + StandardScaler (coefficient-
-     based, scale-sensitive).
-   - Random Forest: median imputation, no scaling (tree splits are
-     scale-invariant; sklearn's RandomForestClassifier cannot accept NaN).
-   - XGBoost: no imputation, no scaling. XGBoost natively learns a default
-     split direction for missing values, so imputing would throw away
-     information (a NaN here always means "sentinel code was present",
-     since data_pipeline.py already replaced sentinels with NaN).
-   Note that in every case, the sentinel-code indicator columns from
-   data_pipeline.py (e.g. ExternalRiskEstimate_missing_no_bureau_record)
-   are retained as ordinary binary features, so which sentinel applied is
-   never lost even when the base value gets imputed.
-
-2. No class-balancing correction is applied (no class_weight, no SMOTE).
-   The processed dataset is close to balanced (52/48 in this project, per
-   data_pipeline.py's target distribution output) -- this is a genuinely
-   near-balanced dataset (the public HELOC release is itself a deliberate
-   under-sample toward balance from a much larger population), not a
-   severe-imbalance case, so no correction is applied. F1/ROC-AUC/PR-AUC
-   are still reported rather than accuracy alone, per the proposal.
-
-3. Hyperparameter tuning uses GridSearchCV with 5-fold stratified CV on
-   the TRAIN split only. The val split is not used for model selection --
-   it's scored afterward purely as an independent diagnostic (large
-   train-vs-val gaps would flag overfitting). The test split is scored
-   once, at the end, and is never touched during tuning.
-
 Usage:
     python baselines.py --processed-dir data/processed --output-dir results
 """
@@ -148,13 +118,6 @@ def main():
     models_dir = args.output_dir / "models"
     models_dir.mkdir(exist_ok=True)
 
-    # Record training-time package versions. Pickled sklearn/xgboost
-    # estimators are not guaranteed compatible across versions -- internal
-    # attributes can be renamed between releases (this bit a real run of
-    # this project: SimpleImputer._fill_dtype was renamed between sklearn
-    # 1.6.1 and 1.9.0, producing a cryptic AttributeError deep inside
-    # sklearn's own code with no indication of the real cause). Recording
-    # versions here lets downstream scripts check and warn clearly instead.
     import sklearn
     import xgboost
     with open(models_dir / "_training_versions.json", "w") as f:

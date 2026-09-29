@@ -1,11 +1,7 @@
 """
 analyze_results.py
 
-First-pass diagnostic over a run_llm_pipeline.py output file. This is NOT
-the full reliability analysis your proposal describes (calibration curves,
-Brier score, ECE, robustness perturbations -- that's Phase 8) -- it's a
-quick sanity check on whether a suspiciously clean parse-success rate
-actually reflects good, varied, sensible output, or a parser loophole.
+
 
 Usage:
     python analyze_results.py --results-path results/stock_results.jsonl
@@ -19,12 +15,7 @@ import pandas as pd
 
 def compute_consistency(df: pd.DataFrame) -> pd.Series:
     """
-    Consistency(x_i) = max_c count(c) / n, per your proposal's formula,
-    where n is the number of repeated runs -- NOT the number of
-    successfully-parsed runs. A case where most attempts fail to parse
-    should score LOW consistency (little reliable signal), not have its
-    denominator shrink to make the surviving runs look perfectly
-    agreement even when most of the attempts produced nothing usable.
+
     """
     def _consistency(case_df):
         n = len(case_df)
@@ -82,9 +73,6 @@ def main():
             print(f"{col:22s} pass={n_pass:4d}  fail={n_fail:4d}  not-evaluated={n_skipped:4d}")
         print(
             "'not-evaluated' means an earlier check in the chain already failed "
-            "(e.g. explanation_grounded is never computed if the JSON itself was "
-            "invalid) -- it does NOT mean that check failed, just that parsing "
-            "stopped before reaching it."
         )
 
     print("\n--- Label distribution (parsed only) ---")
@@ -92,8 +80,7 @@ def main():
     print(
         "If this is heavily skewed toward one label regardless of the "
         "true_label distribution below, that's a sign the model may be "
-        "defaulting to one answer rather than genuinely discriminating -- "
-        "worth checking a few raw_response entries by hand if so."
+        "defaulting to one answer"
     )
 
     print("\n--- True label distribution (for comparison) ---")
@@ -117,9 +104,6 @@ def main():
     print(consistency.describe())
     low_consistency = consistency[consistency < 0.6]
 
-    # Separate "never produced a valid label at all" from "gave genuinely
-    # different labels across runs" -- both show up as low consistency,
-    # but they're different reliability problems worth telling apart.
     zero_valid = df.groupby("case_id").apply(
         lambda g: (g["parse_success"] == False).all(), include_groups=False
     )
@@ -152,10 +136,7 @@ def main():
     false_negatives = comparison[(comparison["true"] == "Bad") & (comparison["predicted"] == "Good")]
     print(
         f"\nFalse negatives (true Bad, predicted Good): {len(false_negatives)} "
-        f"of {(comparison['true'] == 'Bad').sum()} true-Bad cases. This is the "
-        f"error type to inspect first if accuracy looks low alongside a label "
-        f"skew -- it directly shows whether the model is engaging with "
-        f"risk-indicating information or defaulting past it."
+        f"of {(comparison['true'] == 'Bad').sum()} true-Bad cases."
     )
 
     if args.show_examples > 0 and len(false_negatives) > 0:
@@ -169,13 +150,6 @@ def main():
     print("\n--- Quick accuracy check (majority vote per case, parsed only) ---")
     accuracy = (comparison["predicted"] == comparison["true"]).mean()
     print(f"Majority-vote accuracy: {accuracy:.1%} ({len(comparison)} cases)")
-    print(
-        "This is NOT your final reported metric (no F1/ROC-AUC, no "
-        "confidence-weighting, no comparison against the re-scored "
-        "baselines on this same subset) -- just a first sanity check that "
-        "the pipeline is doing something sensible before building the full "
-        "Phase 8 analysis on top of it."
-    )
 
 
 if __name__ == "__main__":

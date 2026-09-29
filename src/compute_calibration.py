@@ -2,8 +2,7 @@
 compute_calibration.py
 
 Computes Brier score, Expected Calibration Error (ECE), and calibration
-curve data for all five systems on the LLM evaluation subset -- per your
-proposal's reliability-evaluation requirements.
+curve data for all five systems on the LLM evaluation subset
 
 Usage:
     python compute_calibration.py --stock-results results/stock_results.jsonl --structured-results results/structured_results_revalidated.jsonl --baseline-predictions results/baseline_per_case_predictions.csv --output-dir results

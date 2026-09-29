@@ -2,10 +2,7 @@
 applicant_profile.py
 
 Converts one row of processed HELOC data into a natural-language paragraph
-describing the applicant, for use as LLM input. This module is SHARED
-infrastructure -- both the stock and structured pipelines use the exact
-same profile text for a given applicant, differing only in how the prompt
-wraps around it.
+describing the applicant, for use as LLM input.
 
    USAGE: python applicant_profile.py --check-coverage data/processed
 """
@@ -92,13 +89,6 @@ def _describe_maxdelq(feature_name: str, value: float) -> str:
     code = int(value)
     if code in mapping:
         return f"The applicant's {label} is: {mapping[code]}."
-    warnings.warn(
-        f"{feature_name}: code {code} not in the confirmed mapping. This "
-        f"mapping is now the complete official scheme from FICO's data "
-        f"dictionary, so an unmapped code here indicates a genuine data "
-        f"anomaly (e.g. MaxDelqEver==1, documented as 'No such value'), "
-        f"not a documentation gap -- worth investigating this specific row."
-    )
     return (
         f"The applicant's {label} is coded {code}, which does not match "
         f"any documented category for this field "

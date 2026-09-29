@@ -2,26 +2,7 @@
 run_llm_pipeline.py
 
 Runs a given pipeline (stock now; structured once it exists) over the
-evaluation subset, N repeated runs per case with distinct seeds, writing
-each result to disk immediately as it completes -- not batched at the end.
-
-This matters specifically because of Colab's session limits: at ~9s+ per
-generation (likely more with the real prompt length -- see the benchmark
-re-run from the Qwen3 setup phase) and hundreds of planned generations,
-losing a session partway through and having nothing to show for it would
-be a real, avoidable cost. Output is JSONL (one JSON object per line);
-re-running with the same --output-path automatically skips
-(case_id, seed) pairs that already completed.
-
-Must run in Colab (imports qwen3_inference, which needs a GPU) -- unlike
-applicant_profile.py or select_stratified_subset.py, which run locally.
-
-Design decision: the core loop (run_pipeline) takes generate_fn as a
-parameter rather than importing qwen3_inference directly, so it can be
-tested without a GPU (see the project conversation log / test suite for
-how this was verified with a mock generate_fn before ever running on
-real hardware) and so the structured pipeline can reuse it unchanged --
-only build_prompt_fn and parse_fn need to differ.
+evaluation subset, repeated runs per case with distinct seeds.
 """
 
 import argparse
@@ -77,16 +58,10 @@ def run_pipeline(
 ) -> int:
     """
     generate_fn(user_prompt: str, seed: int, system_prompt: str,
-    max_new_tokens: int) -> str. Returns the number of generations run
-    (excludes ones skipped because already completed).
+    max_new_tokens: int) -> str. 
+    
+    Returns the number of generations run
 
-    profile_fn(row, metadata) -> str defaults to applicant_profile's
-    standard build_profile_text -- pass
-    applicant_profile_reworded.build_profile_text_reworded here for the
-    rewording robustness test. Numeric perturbation needs no change here
-    at all -- it's just a different --subset-path with the standard
-    profile_fn, since the perturbed values flow through the same,
-    unchanged description logic.
     """
     if profile_fn is None:
         profile_fn = build_profile_text

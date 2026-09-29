@@ -3,9 +3,7 @@ compare_explanations_to_qwen3.py
 
 Compares the structured pipeline's stated key_factors against SHAP and
 LIME reference explanations from the classical baselines, for the same
-cases -- the actual "does structure improve explanation grounding"
-analysis this project has been building toward.
-
+cases
 
 Usage:
     python compare_explanations_to_qwen3.py --structured-results results/structured_results_revalidated.jsonl --subset-path data/processed/llm_eval_subset.csv --shap-lime-path results/shap_lime_top_features.json --output-path results/explanation_comparison.json --show-examples 3

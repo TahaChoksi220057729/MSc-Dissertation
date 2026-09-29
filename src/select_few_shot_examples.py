@@ -1,10 +1,9 @@
 """
 select_few_shot_examples.py
 
-Selects one clear "Good" example, one clear "Bad" example, and one
-genuinely borderline example from the TRAINING split, and auto-generates 
-their ideal structured responses. Run locally once; structured_pipeline.py 
-loads the saved output as a FIXED block for every prompt in the run.
+Selects one  "Good" example, one  "Bad" example, and one
+borderline example from the training split, and generates 
+ideal structured responses. 
 
 """
 
@@ -85,7 +84,6 @@ def select_example(train: pd.DataFrame, target_col: str, proba, true_class: int)
     train = train.copy()
     train["_proba"] = proba
     cls_rows = train[train[target_col] == true_class]
-    # want HIGH confidence in the CORRECT direction: proba close to true_class
     if true_class == 1:
         cls_rows = cls_rows.sort_values("_proba", ascending=False)
     else:

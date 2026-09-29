@@ -65,20 +65,6 @@ def main():
 
     print(f"Perturbed {len(perturbed)} of {len(subset)} cases -> {args.output_path}")
     print(f"Perturbed features (max magnitude): {PERTURBABLE_FEATURES}")
-    print(
-        "\nSame case_id values as the original subset -- this is what lets you "
-        "match perturbed predictions back to the ORIGINAL ones for comparison "
-        "later. Do not re-run select_stratified_subset.py to regenerate "
-        "case_ids for this file; use it as-is."
-    )
-    print(
-        f"\nThis needs {len(perturbed)} x n_repeats NEW generations per "
-        f"pipeline tested. Consider n_repeats=1-2 (not 5) when running this "
-        f"through run_llm_pipeline.py -- you're testing sensitivity to INPUT "
-        f"change here, not decoding randomness, which the original 5-repeat "
-        f"runs already measured."
-    )
-
 
 if __name__ == "__main__":
     main()

@@ -88,12 +88,7 @@ def main():
         )
         print("Flip directions:")
         print(flip_directions.value_counts())
-        print(
-            "\nIf flips are heavily one-directional, that's not just "
-            "instability -- it suggests the perturbation/rewording is "
-            "systematically nudging the model toward one answer, not adding "
-            "neutral noise. Worth checking the examples below for a pattern."
-        )
+    
     else:
         print("No flips -- but check confidence_delta below before concluding "
               "full robustness; a model can hold its label while still being "
@@ -120,12 +115,6 @@ def main():
 
         print("\n--- Perturbation magnitude: flipped vs non-flipped cases ---")
         print(comparison.groupby("flipped")["total_perturbation_magnitude"].describe())
-        print(
-            "\nFlipped cases showing LARGER mean magnitude than non-flipped is "
-            "reassuring -- the model responds proportionately to input change. "
-            "Similar magnitudes in both groups suggests more arbitrary "
-            "instability, not proportionate sensitivity."
-        )
 
     if args.show_examples > 0 and n_flipped > 0:
         print(f"\n--- {min(args.show_examples, n_flipped)} flipped case example(s) ---")
