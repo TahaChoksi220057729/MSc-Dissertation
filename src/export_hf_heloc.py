@@ -5,10 +5,21 @@ Exports mstz/heloc to data/raw/heloc_dataset.csv
 """
 
 import sys
-
 from huggingface_hub import login
 
-login(token="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")
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+
+login(token="") 
+
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
+#Removed Personal Hugging Face token for examiners/board reading this please use a personal one to test this code.
 
 from datasets import load_dataset
 
