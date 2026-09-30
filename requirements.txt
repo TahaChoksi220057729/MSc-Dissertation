@@ -1,0 +1,10 @@
+scikit-learn==1.9.0
+xgboost==3.4.1
+shap==0.52.0
+lime==0.2.0.1
+pandas
+numpy
+joblib
+statsmodels
+datasets
+huggingface_hub
