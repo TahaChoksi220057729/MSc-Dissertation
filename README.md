@@ -24,7 +24,6 @@ The systems are compared on accuracy, McNemar tests with Holm correction, calibr
 ├── results/                           # models, metrics, raw LLM outputs, analysis outputs
 ├── src/                               # all Python scripts (listed below)
 ├── requirements.txt                   # local environment
-└── requirements-colab.txt             # Colab (GPU) environment
 ```
 
 ### Scripts in `src/`, in the order they are run
